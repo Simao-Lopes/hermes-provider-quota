@@ -109,8 +109,9 @@ python tests/test_backend.py   # backend half: needs the Hermes runtime on PYTHO
 hermes plugins validate .   # manifest, declarations, capability probe
 ```
 
-`AGENTS.md` documents the invariants, the provider-addition recipe and the test conventions. Read it
-before changing either half.
+The non-negotiable invariants: never fabricate quota, never send inference, keep credentials in the
+backend, and pin the destination before sending a key. The provider-addition recipe and the test
+conventions live in the repo's agent guide (`AGENTS.md`).
 
 ## License
 
