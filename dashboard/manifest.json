@@ -1,0 +1,1 @@
+{"name":"provider-quota","label":"Provider Quota","version":"1.0.0","description":"Read-only current-provider quota for the desktop composer.","api":"plugin_api.py","tab":{"hidden":true}}

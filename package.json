@@ -1,0 +1,15 @@
+{
+  "name": "hermes-provider-quota-tests",
+  "private": true,
+  "type": "module",
+  "description": "Test-only dependencies for the desktop half. The plugin itself ships uncompiled and imports nothing but @hermes/plugin-sdk.",
+  "scripts": {
+    "test": "node --experimental-vm-modules tests/test_frontend.mjs"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "5.101.2",
+    "jsdom": "^26.0.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}

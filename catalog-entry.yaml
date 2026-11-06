@@ -1,0 +1,25 @@
+# Ready-to-submit entry for NousResearch/hermes-agent → plugin-catalog/.
+#
+# That catalog is a human-merged allow-list, so a maintainer reviews this file in a PR:
+#   - `sha` must be a full 40-hex commit SHA (never a branch or tag)
+#   - the pinned commit should be >= 2 weeks old when it is submitted
+#   - it may only be submitted by the repo owner
+#   - capabilities must match what register() actually does (this plugin registers nothing)
+#
+# Fill in `sha` with `git rev-parse HEAD` of a released commit, then open a PR adding
+# plugin-catalog/provider-quota.yaml.
+
+name: provider-quota
+repo: https://github.com/Simao-Lopes/hermes-provider-quota
+sha: REPLACE_WITH_40_HEX_COMMIT_SHA
+description: Live current-provider quota chip for the Hermes desktop composer — remaining allowance,
+  credit balance and reset times, read from the provider's own account API with no model calls.
+maintainer: Simao-Lopes
+tier: community
+docs_url: https://github.com/Simao-Lopes/hermes-provider-quota
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []

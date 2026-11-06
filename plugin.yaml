@@ -1,0 +1,4 @@
+name: provider-quota
+version: 1.0.0
+description: Live current-provider quota chip in the Hermes desktop composer — remaining allowance, credit balance and reset times, read from the provider's own account API with no model calls.
+author: Simao Lopes
